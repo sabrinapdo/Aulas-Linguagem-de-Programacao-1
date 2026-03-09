@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main (String[] args) {
-        Scanner scanner = new Scanner (System.in);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Digite a quantidade em estoque: ");
         int quantidade = scanner.nextInt();
     
@@ -13,6 +13,7 @@ public class Main {
         } else {
             System.out.println("Status: estoque OK.");
         }
+        
         scanner.close();
     }
 }
