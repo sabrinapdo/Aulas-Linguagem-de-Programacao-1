@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Desafio {
+public class TarefaAula04 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
